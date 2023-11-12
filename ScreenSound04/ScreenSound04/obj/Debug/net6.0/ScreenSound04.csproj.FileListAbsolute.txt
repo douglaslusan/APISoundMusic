@@ -1,0 +1,15 @@
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\bin\Debug\net6.0\ScreenSound04.exe
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\bin\Debug\net6.0\ScreenSound04.deps.json
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\bin\Debug\net6.0\ScreenSound04.runtimeconfig.json
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\bin\Debug\net6.0\ScreenSound04.dll
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\bin\Debug\net6.0\ScreenSound04.pdb
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.csproj.AssemblyReference.cache
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.AssemblyInfoInputs.cache
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.AssemblyInfo.cs
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.csproj.CoreCompileInputs.cache
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.dll
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\refint\ScreenSound04.dll
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.pdb
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ScreenSound04.genruntimeconfig.cache
+C:\Users\LT-DOUG\source\repos\ScreenSound04\ScreenSound04\obj\Debug\net6.0\ref\ScreenSound04.dll
