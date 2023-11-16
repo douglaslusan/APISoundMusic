@@ -38,7 +38,8 @@ internal class LinqFilter
     public static void FiltrarArtistaPorAcorde(List<Musica> musicas, string acorde)
     {
         // na lista de musicas quero musicas onde contem o acorde escolhido, selecionando o Nome sem e colocando em uma lista
-        var musicaPorAcorde = musicas.Where(musica => musica.Acorde!.Equals(acorde)).Select(musica => musica.Nome).ToList();
+        var musicaPorAcorde = musicas.Where(musica => musica.Acorde!.Equals(acorde))
+            .Select(musica => musica.Nome).ToList();
 
         Console.WriteLine($"Musicas tocadas em {acorde}\n");
         foreach (var musica in musicaPorAcorde)
