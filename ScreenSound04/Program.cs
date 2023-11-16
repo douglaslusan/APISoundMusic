@@ -9,37 +9,27 @@ using (HttpClient client = new HttpClient())
         string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
 
-        // LinqFilter.FiltrarTodosGeneros(musicas);
+        //LinqFilter.FiltrarTodosGeneros(musicas);
 
-        // LinqOrder.OrdenarArtista(musicas);
+        //LinqOrder.OrdenarArtista(musicas);
 
-        // LinqFilter.FiltrarArtistaPorGenero(musicas, "pop");
+        //LinqFilter.FiltrarArtistaPorGenero(musicas, "pop");
 
-        // LinqFilter.FiltrarMusicasPorArtista(musicas, "Eminem");
+        //LinqFilter.FiltrarMusicasPorArtista(musicas, "Eminem");
 
-        var minhasMusicasPreferidas = new MusicasPreferidas("douglas");
+        LinqFilter.FiltrarArtistaPorAcorde(musicas, "G");
 
-        minhasMusicasPreferidas.AddMusicaFavorita(musicas[20]);
-        minhasMusicasPreferidas.AddMusicaFavorita(musicas[30]);
-        minhasMusicasPreferidas.AddMusicaFavorita(musicas[31]);
-        minhasMusicasPreferidas.AddMusicaFavorita(musicas[45]);
-        minhasMusicasPreferidas.AddMusicaFavorita(musicas[46]);
+        //var musicaspreferidasRazi = new MusicasPreferidas("razi");
 
-        minhasMusicasPreferidas.ExibirMusicasFavoritas();
+        //musicaspreferidasRazi.AddMusicaFavorita(musicas[121]);
+        //musicaspreferidasRazi.AddMusicaFavorita(musicas[149]);
+        //musicaspreferidasRazi.AddMusicaFavorita(musicas[254]);
+        //musicaspreferidasRazi.AddMusicaFavorita(musicas[306]);
+        //musicaspreferidasRazi.AddMusicaFavorita(musicas[552]);
 
-        minhasMusicasPreferidas.GerarArquivoJson();
+        //musicaspreferidasRazi.ExibirMusicasFavoritas();
 
-        var musicaspreferidasRazi = new MusicasPreferidas("razi");
-
-        musicaspreferidasRazi.AddMusicaFavorita(musicas[121]);
-        musicaspreferidasRazi.AddMusicaFavorita(musicas[149]);
-        musicaspreferidasRazi.AddMusicaFavorita(musicas[254]);
-        musicaspreferidasRazi.AddMusicaFavorita(musicas[306]);
-        musicaspreferidasRazi.AddMusicaFavorita(musicas[552]);
-
-        musicaspreferidasRazi.ExibirMusicasFavoritas();
-
-        musicaspreferidasRazi.GerarArquivoJson();
+        //musicaspreferidasRazi.GerarArquivoJson();
     }
     catch (Exception ex)
     {
